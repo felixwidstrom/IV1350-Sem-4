@@ -106,6 +106,10 @@ public class Controller {
         return r;
     }
 
+    /**
+     * Method for adding a observer instance to the sale.
+     * @param obs an instance of an observer.
+     */
     public void addObserver(Observer obs) {
         sale.addObserver(obs);
     }

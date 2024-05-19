@@ -141,10 +141,17 @@ public class Sale {
         return true;
     }
 
+    /**
+     * A method for adding an observer to the list of observers.
+     * @param obs an instance of an observer to be added.
+     */
     public void addObserver(Observer obs) {
         observers.add(obs);
     }
     
+    /**
+     * A method for notifying the observers that the state is changed and for making the observers handle the update.
+     */
     public void notifyObservers() {
         for (Observer obs : observers) {
             obs.totalRevenue(totalAmount);

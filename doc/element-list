@@ -3,4 +3,5 @@ se.kth.IV1350.controller
 se.kth.IV1350.dto
 se.kth.IV1350.integration
 se.kth.IV1350.model
+se.kth.IV1350.util
 se.kth.IV1350.view
