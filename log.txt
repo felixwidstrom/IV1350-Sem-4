@@ -1,0 +1,24 @@
+2024-05-19T16:44:15.787269100
+
+Exception thrown: 
+Could not find an item with id: 10
+
+se.kth.IV1350.integration.InvalidIDException: Could not find an item with id: 10
+	at se.kth.IV1350.integration.ExternalInventory.getItem(ExternalInventory.java:50)
+	at se.kth.IV1350.controller.Controller.scanItem(Controller.java:71)
+	at se.kth.IV1350.view.View.scanItem(View.java:65)
+	at se.kth.IV1350.view.View.startSale(View.java:46)
+	at se.kth.IV1350.Main.main(Main.java:24)
+
+2024-05-19T16:44:20.994846200
+
+Exception thrown: 
+Database could not be reached.
+
+se.kth.IV1350.integration.DatabaseUnreachableException: Database could not be reached.
+	at se.kth.IV1350.integration.ExternalInventory.getItem(ExternalInventory.java:41)
+	at se.kth.IV1350.controller.Controller.scanItem(Controller.java:71)
+	at se.kth.IV1350.view.View.scanItem(View.java:65)
+	at se.kth.IV1350.view.View.startSale(View.java:46)
+	at se.kth.IV1350.Main.main(Main.java:24)
+
